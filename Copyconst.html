@@ -1,0 +1,27 @@
+import java.util.*;
+import java.io.*;
+class Copyconst
+{
+ String name;
+ int age;
+ Copyconst(String n,int a)
+{
+ name=n;
+ age=a;
+}
+Copyconst(Copyconst s)
+{
+name=s.name;
+age=s.age;
+}
+void display()
+{
+ System.out.println("data of copy constructor is as follows"+name+age)';
+}
+public static void main(String ar[])
+{
+   Copyconst c1 = new copy("Maneesh",20);
+   Copyconst c2 = new copy(Copyconst s);
+}
+}
+   
